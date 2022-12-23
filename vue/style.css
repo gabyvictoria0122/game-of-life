@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Wordle";
+  src: url("fonts/karnakcondensed-normal-700.woff") format("woff");
+}
+
+.wordle-ft {
+  font-family: "Wordle", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Wordle", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 37px;
+}
+
+.container-tabuleiro {
+  margin-top: 145px;
+  margin-bottom: 145px;
+  text-align: center;
+}
+
+.quadrado {
+  border: 2px solid #d3d6da;
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  margin: 0;
+}
+
+.purple {
+  background-color: purple;
+  border: 2px solid #d3d6da;
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  margin: 0;
+}
