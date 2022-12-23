@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaby's Game of Life</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-    <div id = "app">
-        <h1>Gaby's Game of Life</h1>
-        <hr style="margin-top: 0px; color: #d3d6da" />
-
-        <div class="container-tabuleiro">
+<template>
+  <div>
+    <h1>Gaby's Game of Life</h1>
+    <hr style="margin-top: 0px; color: #d3d6da" />
+    <div class="container-tabuleiro">
         <div class="tabuleiro">
             <div id="l1c1" class="quadrado"></div>
             <div id="l1c2" class="quadrado"></div>
@@ -57,17 +46,35 @@
             <div id="l6c4" class="quadrado"></div>
             <div id="l6c5" class="quadrado"></div>
         </div>
-        </div>
     </div>
+  </div>
+</template>
 
-    <script>
-        var app = new Vue({
-            el: '#app',
-            data: {
-                message: 'Olá Vue!'
-            }
-        })
-    </script>
-    
-</body>
-</html>
+<script>
+export default {
+  name: 'QuadradosLife',
+  props: {
+    msg: String
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.quadrado {
+  border: 2px solid #d3d6da;
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  margin: 0;
+}
+
+.purple {
+  background-color: purple;
+  border: 2px solid #d3d6da;
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+  margin: 0;
+}
+</style>
