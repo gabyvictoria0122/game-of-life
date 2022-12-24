@@ -65,7 +65,7 @@ export default {
           let quanVizi = 0 
           
           for(let i = 0; i < fica.length; i++){
-            if (fica[0].id == `l${l-1}c${c-1}`){
+            if (fica[i].id == `l${l-1}c${c-1}`){
               quanVizi++; 
             }
             
@@ -96,23 +96,23 @@ export default {
             if (fica[i].id == `l${l+1}c${c+1}`){
               quanVizi++ 
             }
-  
           } 
-          if (quanVizi < 2 || quanVizi < 3) {
-            if(document.getElementById(idTemp).classList == "purple" ){
-              document.getElementById(idTemp).classList.replace("purple", "quadrado")
-            }else{
-              document.getElementById(idTemp).classList.add("quadrado")
+          
+          if(document.getElementById(idTemp).classList == "quadrado" ){
+            if(quanVizi === 3){
+               document.getElementById(idTemp).classList.replace("quadrado", "purple")
             }
-          }else if (1 < quanVizi <= 3 ){
-              // console.log(idTemp, "vivi")
-            document.getElementById(idTemp).classList.add("purple")
-          }             
-          // console.log(idTemp, quanVizi)
-        }
+          } else if (quanVizi < 2 || quanVizi > 3) {
+                document.getElementById(idTemp).classList.replace("purple", "quadrado")
+          }
+          
+        }            
       }
     }
   }
+  // } else if (2 <= quanVizi <= 3 ) {
+  //   document.getElementById(idTemp).classList.add("purple")
+  // }
 }
 </script>
 
