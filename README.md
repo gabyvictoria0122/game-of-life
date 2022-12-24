@@ -7,7 +7,7 @@ Breve Explicação sobre o jogo
 
 ## Versão em Vue.js:
  
-Para ver a versão em Vue [ click aqui ](https://game-of-life-orq3qres1-gabyvictoria0122.vercel.app/).
+Para ver a versão em Vue [ click aqui ](https://game-of-life-gv.vercel.app/).
 
 ## Versão em Python:
 
