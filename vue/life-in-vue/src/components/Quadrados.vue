@@ -13,16 +13,16 @@
 
         <div class="tabuleiro">
             <div id="l2c1" class=" quadrado"></div>
-            <div id="l2c2" class=" purple"></div>
-            <div id="l2c3" class=" purple"></div>
-            <div id="l2c4" class=" purple"></div>
+            <div id="l2c2" class=" quadrado"></div>
+            <div id="l2c3" class=" quadrado"></div>
+            <div id="l2c4" class=" quadrado"></div>
             <div id="l2c5" class=" quadrado"></div>
         </div>
         <div class="tabuleiro">
             <div id="l3c1" class=" quadrado"></div>
-            <div id="l3c2" class=" quadrado"></div>
-            <div id="l3c3" class=" quadrado"></div>
-            <div id="l3c4" class=" quadrado"></div>
+            <div id="l3c2" class=" purple"></div>
+            <div id="l3c3" class=" purple"></div>
+            <div id="l3c4" class=" purple"></div>
             <div id="l3c5" class=" quadrado"></div>
         </div>
         <div class="tabuleiro">
