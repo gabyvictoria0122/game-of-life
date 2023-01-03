@@ -134,4 +134,9 @@ export default {
   display: inline-block;
   margin: 0;
 }
+
+button{
+  background-color: white;
+  border: 3px solid purple;
+}
 </style>
