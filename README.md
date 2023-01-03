@@ -3,10 +3,15 @@
 It is a cellular automaton devised by the British mathematician John Horton Conway in 1970.   
 Based on some mathematical rules, cells can live, die or multiply.
 
-
 ## Vue.js Version:
  
 Para ver a versão em Vue [ click aqui ](https://game-of-life-gv.vercel.app/).
+
+### Setup:
+
+```  cd vue/life-in-vue  ```  
+```  npm run serve  ```
+
 
 ## Python 3.8.10 Version:
 
@@ -14,9 +19,9 @@ https://user-images.githubusercontent.com/104435995/209340952-48a61ffb-019f-4107
 
 ### Setup:
 
-```  cd python ```  
-``` pip install -r requirements.txt```  
-``` python main.py```  
+```  cd python  ```  
+```  pip install -r requirements.txt  ```  
+```  python main.py  ```  
 
 
 
