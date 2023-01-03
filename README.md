@@ -1,8 +1,7 @@
 # Gaby's Game of Life
 
-Breve Explicação sobre o jogo Breve Explicação sobre o jogo
-Breve Explicação sobre o jogo
-Breve Explicação sobre o jogo
+It is a cellular automaton devised by the British mathematician John Horton Conway in 1970.   
+Based on some mathematical rules, cells can live, die or multiply.
 
 
 ## Vue.js Version:
@@ -21,4 +20,15 @@ https://user-images.githubusercontent.com/104435995/209340952-48a61ffb-019f-4107
 
 
 
-## Regras do Game of Life:
+## Game rules:
+
+* To be born:  
+Each cell with three neighbors is born.
+
+* To die:  
+ Each cell with one or no neighbors dies, as if by solitude.   
+ Each cell with four or more neighbors dies, as if by overpopulation.
+
+* To stay alive:   
+Each cell with two or three neighbors survives.
+
