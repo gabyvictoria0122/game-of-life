@@ -4,8 +4,11 @@ It is a cellular automaton devised by the British mathematician John Horton Conw
 Based on some mathematical rules, cells can live, die or multiply.
 
 ## Vue.js Version:
- 
-Para ver a versão em Vue [ click aqui ](https://game-of-life-gv.vercel.app/).
+
+[ click here ](https://game-of-life-gv.vercel.app/)
+
+![image](https://user-images.githubusercontent.com/104435995/210425695-631c3d0a-dbb4-472b-ac16-7da3e0b97b98.png)
+
 
 ### Setup:
 
